@@ -10,16 +10,24 @@
 5. Затем вывести значение переменной, в которой хранится средний рост.
 */
 
-var studentOneName = 'Danil';
-var studentOneHeight = 193;
-var studentTwoName = 'Anton';
-var studentTwoHeight = 180;
-var studentThreeName = 'Dima';
-var studentThreeHeight = 188;
+var studentOne = {
+	name: 'Danil',
+	height: 193,
+};
 
-var getTotal = (studentOneHeight + studentTwoHeight + studentThreeHeight) / 3;
+var studentTwo = {
+	name: 'Anton',
+	height: 180,
+};
 
-console.log('Имя: ' + studentOneName + ', рост: ' + studentOneHeight + 'см');
-console.log('Имя: ' + studentTwoName + ', рост: ' + studentTwoHeight + 'см');
-console.log('Имя: ' + studentThreeName + ', рост: ' + studentThreeHeight + 'см');
+var studentThree = {
+	name: 'Dima',
+	height: 188,
+};
+
+var getTotal = (studentOne.height + studentTwo.height + studentThree.height) / 3;
+
+console.log('Имя: ' + studentOne.name + ', рост: ' + studentOne.height + 'см');
+console.log('Имя: ' + studentTwo.name + ', рост: ' + studentTwo.height + 'см');
+console.log('Имя: ' + studentThree.name + ', рост: ' + studentThree.height + 'см');
 console.log('Средний рост студентов: ' + getTotal + 'см');
