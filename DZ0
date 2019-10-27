@@ -28,14 +28,16 @@
 		  0%   {right:0px;}
 		  25%  {right:320px;}
 		  50%  {right:640px;}
-		  75%  {right:640px;}
+		  75%  {right:320px;}
+		  100%  {right:0px;}
 		}
 
 		@keyframes mySlides {
 		  0%   {right:0px;}
 		  25%  {right:320px;}
 		  50%  {right:640px;}
-		  75%  {right:640px;}
+		  75%  {right:320px;}
+		  100%  {right:0px;}
 		}
 	</style>
 </head>
